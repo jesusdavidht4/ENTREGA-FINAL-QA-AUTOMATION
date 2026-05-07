@@ -25,8 +25,8 @@ Las pruebas cubren:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repo.git
-cd nombre-del-repo
+git clone https://github.com/jesusdavidht4/PRE_ENTREGA_JESUS_DAVID_HERNANDEZ.git
+cd PRE_ENTREGA_JESUS_DAVID_HERNANDEZ
 ```
 
 ### 2. Instalar las dependencias
