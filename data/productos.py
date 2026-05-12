@@ -1,0 +1,8 @@
+PRODUCTOS = [
+    (0, "Sauce Labs Backpack"),
+    (1, "Sauce Labs Bike Light"),
+    (2, "Sauce Labs Bolt T-Shirt"),
+    (3, "Sauce Labs Fleece Jacket"),
+    (4, "Sauce Labs Onesie"),
+    (5, "Test.allTheThings() T-Shirt (Red)"),
+]
