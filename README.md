@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proyecto Final - Automatización de Pruebas
 
 **Autor:** Jesús David Hernández  
@@ -145,3 +146,7 @@ El reporte HTML se genera automáticamente en `reports/reporte.html` y puede abr
 
 **API - ReqRes**
 - API Key requerida en `utils/api_client.py`
+=======
+# ENTREGA-FINAL-QA-AUTOMATION
+Entrega Final curso QA Automation (JESUS DAVID HERNANDEZ)
+>>>>>>> b60628cc305848512f679fa6f958486e1d7b9f98
