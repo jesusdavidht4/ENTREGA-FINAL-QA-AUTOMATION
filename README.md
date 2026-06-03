@@ -1,73 +1,147 @@
-## PROYECTO DE AUTOMATIZACION DE SAUCEDEMO
+# Proyecto Final - Automatización de Pruebas
 
-# AUTOR: JESUS DAVID hERNANDEZ
+**Autor:** Jesús David Hernández  
+**Curso:** QA Automation - Talento Tech  
+**Sitio bajo prueba:** [SauceDemo](https://www.saucedemo.com/)  
+**API bajo prueba:** [ReqRes](https://reqres.in/)
 
-# Automatización de Pruebas - SauceDemo
+---
 
 ## Propósito del proyecto
-Este proyecto tiene como objetivo automatizar las pruebas funcionales del sitio web 
-[SauceDemo](https://www.saucedemo.com/), simulando el comportamiento de un usuario real 
-para verificar que las funcionalidades principales funcionen correctamente.
 
-Las pruebas cubren:
-- Inicio de sesión con credenciales válidas
-- Visualización del catálogo de productos
-- Agregar un producto al carrito de compras
+Framework de automatización de pruebas completo que combina pruebas de UI y API, implementando el patrón Page Object Model (POM), parametrización con múltiples fuentes de datos, generación de reportes HTML y sistema de logging.
+
+---
 
 ## Tecnologías utilizadas
-- **Python 3.14** - Lenguaje de programación
-- **Selenium** - Automatización del navegador
-- **pytest** - Framework de pruebas
-- **pytest-html** - Generación de reportes HTML
-- **ChromeDriver 147** - Driver para controlar Chrome
 
-## Cómo instalar las dependencias
+| Tecnología | Uso |
+|-----------|-----|
+| Python 3.14 | Lenguaje principal |
+| Selenium WebDriver | Automatización de UI |
+| pytest | Framework de testing |
+| Requests | Pruebas de API |
+| pytest-html | Reportes HTML |
+| Faker | Generación de datos de prueba |
+| webdriver-manager | Gestión automática de ChromeDriver |
+
+---
+
+## Estructura del proyecto
+
+```
+ENTREGA FINAL/
+├── data/
+│   ├── checkout.csv          # Datos de formulario de checkout
+│   ├── ordenamiento.py       # Datos de ordenamiento
+│   ├── precios.py            # Datos de precios esperados
+│   ├── productos.py          # Datos de productos
+│   ├── usuarios_invalidos.py # Credenciales inválidas
+│   └── users.json            # Usuarios válidos
+├── pages/
+│   ├── agregar_producto_page.py
+│   ├── checkout_page.py
+│   ├── inventory_page.py
+│   ├── login_error_page.py
+│   ├── login_pages.py
+│   ├── orden_page.py
+│   └── precios_page.py
+├── test/
+│   ├── test_agregar_producto.py
+│   ├── test_api.py
+│   ├── test_checkout.py
+│   ├── test_inventory.py
+│   ├── test_login.py
+│   ├── test_login_negativo.py
+│   ├── test_ordenamiento.py
+│   └── test_precios.py
+├── utils/
+│   ├── api_client.py         # Cliente HTTP para pruebas de API
+│   └── helpers.py            # Driver, logging, screenshots, carga de datos
+├── reports/                  # Reportes HTML generados
+├── screenshots/              # Capturas automáticas en fallos
+├── logs/                     # Logs de ejecución
+├── conftest.py
+├── pytest.ini
+└── requirements.txt
+```
+
+---
+
+## Instalación
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/jesusdavidht4/PRE_ENTREGA_JESUS_DAVID_HERNANDEZ.git
-cd PRE_ENTREGA_JESUS_DAVID_HERNANDEZ
+git clone https://github.com/jesusdavidht4/ENTREGA-FINAL-QA-AUTOMATION.git
+cd proyecto-final-automation-testing-jesus-hernandez
 ```
 
-### 2. Instalar las dependencias
+### 2. Instalar dependencias
 ```bash
 pip install -r requirements.txt
 ```
 
+---
+
 ## Cómo ejecutar las pruebas
 
-### Ejecutar todos los tests
+### Todos los tests
 ```bash
-pytest
+pytest test/ -v
 ```
 
-### Ejecutar con reporte HTML
+### Solo tests de UI
 ```bash
-pytest --html=reports/reporte.html --self-contained-html
+pytest test/ -v --ignore=test/test_api.py
 ```
 
-El reporte se genera en la carpeta `reports/` y se puede abrir en cualquier navegador.
+### Solo tests de API
+```bash
+pytest test/test_api.py -v
+```
 
-## Estructura del proyecto
-PRE ENTREGA/
-├── test/
-│   └── test_saucede.py
-├── utils/
-│   ├── init.py
-│   └── helpers.py
-├── reports/
-│   └── reporte.html
-├── datos/
-├── conftest.py
-├── pytest.ini
-├── requirements.txt
-└── README.md
+El reporte HTML se genera automáticamente en `reports/reporte.html` y puede abrirse en cualquier navegador.
+
+---
 
 ## Tests incluidos
-- **test_loging**: Verifica que el login con credenciales válidas redirige al inventario
-- **test_catalogo_productos**: Verifica que el catálogo muestra productos correctamente
-- **test_agregar_al_carrito**: Verifica que se puede agregar un producto al carrito
+
+### UI - SauceDemo (35 tests)
+
+| Archivo | Descripción |
+|--------|-------------|
+| test_login.py | Login con usuarios válidos (parametrizado con JSON) |
+| test_login_negativo.py | Login con credenciales inválidas (parametrizado con Python) |
+| test_inventory.py | Validación del catálogo de productos |
+| test_agregar_producto.py | Agregar productos al carrito y validar |
+| test_ordenamiento.py | Ordenamiento de productos por nombre y precio |
+| test_precios.py | Validación de precios de productos |
+| test_checkout.py | Flujo completo de checkout con CSV y Faker |
+
+### API - ReqRes (3 tests)
+
+| Test | Método | Descripción |
+|------|--------|-------------|
+| test_get_users | GET | Obtener lista de usuarios y validar estructura |
+| test_create_user | POST | Crear usuario y validar respuesta |
+| test_delete_user | DELETE | Eliminar usuario y validar status 204 |
+
+---
+
+## Cómo interpretar los reportes
+
+- Abrí `reports/reporte.html` en cualquier navegador
+- Los tests aparecen con estado **PASSED** (verde) o **FAILED** (rojo)
+- Los tests fallidos incluyen el screenshot automático tomado en el momento del fallo
+- Los logs detallados se encuentran en `logs/test_run.log`
+
+---
 
 ## Credenciales de prueba
-- **Usuario**: standard_user
-- **Contraseña**: secret_sauce
+
+**UI - SauceDemo**
+- Usuario válido: `standard_user` / `secret_sauce`
+- Usuario bloqueado: `locked_out_user` / `secret_sauce`
+
+**API - ReqRes**
+- API Key requerida en `utils/api_client.py`

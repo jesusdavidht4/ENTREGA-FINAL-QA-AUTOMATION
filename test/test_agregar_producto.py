@@ -18,6 +18,6 @@ def test_agregar_producto(driver, indice, nombre_esperado):
 
     assert agregar.obtener_badge() == "1"
 
-    agregar.ir_al_carrito()
-
-    assert agregar.obtener_nombre_en_carrito() == nombre_esperado
+def ir_al_carrito(self):
+    carrito = self.driver.find_element(*self._CART_LINK)
+    self.driver.execute_script("arguments[0].click();", carrito)

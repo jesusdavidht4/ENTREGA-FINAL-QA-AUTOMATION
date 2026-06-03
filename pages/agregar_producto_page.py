@@ -6,6 +6,7 @@ class AgregarProductoPage:
     _NOMBRES_PRODUCTOS = (By.CSS_SELECTOR, "[data-test='inventory-item-name']")
     _BADGE = (By.CLASS_NAME, "shopping_cart_badge")
     _CART_LINK = (By.CSS_SELECTOR, "[data-test='shopping-cart-link']")
+    _NOMBRE_EN_CARRITO = (By.CSS_SELECTOR, ".cart_item [data-test='inventory-item-name']")  # ✅ específico del carrito
 
     def __init__(self, driver):
         self.driver = driver
@@ -30,4 +31,6 @@ class AgregarProductoPage:
         self.driver.find_element(*self._CART_LINK).click()
 
     def obtener_nombre_en_carrito(self):
-        return self.driver.find_element(*self._NOMBRES_PRODUCTOS).text
+        return self.wait.until(
+            EC.presence_of_element_located(self._NOMBRE_EN_CARRITO)  # ✅
+        ).text

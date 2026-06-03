@@ -21,6 +21,6 @@ class LoginPage:
             EC.presence_of_element_located(self._USERNAME)
         ).send_keys(username)
         self.driver.find_element(*self._PASSWORD).send_keys(password)
-        self.driver.find_element(*self._LOGIN_BTN).click()  # ← clicl → click
+        self.driver.find_element(*self._LOGIN_BTN).click() 
 
 
