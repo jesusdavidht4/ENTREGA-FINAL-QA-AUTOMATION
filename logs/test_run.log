@@ -1587,3 +1587,252 @@
 2026-06-02 21:18:46,563 [INFO] Get LATEST chromedriver version for google-chrome
 2026-06-02 21:18:47,132 [INFO] Get LATEST chromedriver version for google-chrome
 2026-06-02 21:18:47,672 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:23:23,610 [INFO] Cargando datos desde CSV: data/checkout.csv
+2026-06-08 21:23:23,679 [INFO] Cargando usuarios desde JSON: data/users.json
+2026-06-08 21:28:08,788 [INFO] Test GET: obtener lista de usuarios
+2026-06-08 21:28:08,792 [INFO] GET usuarios - página 1
+2026-06-08 21:28:52,789 [INFO] Test POST: crear usuario
+2026-06-08 21:28:52,791 [INFO] POST crear usuario: Jesus David, QA Automation
+2026-06-08 21:29:16,626 [INFO] Test DELETE: eliminar usuario
+2026-06-08 21:29:16,637 [INFO] DELETE usuario id: 2
+2026-06-08 21:29:18,979 [INFO] Test PUT: actualizar usuario
+2026-06-08 21:29:18,986 [INFO] PUT actualizar usuario id: 2
+2026-06-08 21:34:41,715 [INFO] Test GET: obtener lista de usuarios
+2026-06-08 21:34:41,719 [INFO] GET usuarios - página 1
+2026-06-08 21:34:58,261 [INFO] Test POST: crear usuario
+2026-06-08 21:34:58,265 [INFO] POST crear usuario: Jesus David, QA Automation
+2026-06-08 21:34:59,960 [INFO] Test DELETE: eliminar usuario
+2026-06-08 21:34:59,962 [INFO] DELETE usuario id: 2
+2026-06-08 21:35:08,776 [INFO] Test PUT: actualizar usuario
+2026-06-08 21:35:08,779 [INFO] PUT actualizar usuario id: 2
+2026-06-08 21:36:57,645 [INFO] Test GET: obtener lista de usuarios
+2026-06-08 21:36:57,648 [INFO] GET usuarios - página 1
+2026-06-08 21:37:21,400 [INFO] Test POST: crear usuario
+2026-06-08 21:37:21,407 [INFO] POST crear usuario: Jesus David, QA Automation
+2026-06-08 21:37:29,982 [INFO] Test DELETE: eliminar usuario
+2026-06-08 21:37:29,986 [INFO] DELETE usuario id: 2
+2026-06-08 21:37:38,524 [INFO] Test PUT: actualizar usuario
+2026-06-08 21:37:38,530 [INFO] PUT actualizar usuario id: 2
+2026-06-08 21:42:26,814 [INFO] Test GET: obtener lista de usuarios
+2026-06-08 21:42:26,949 [INFO] GET usuarios - página 1
+2026-06-08 21:42:31,157 [INFO] Test POST: crear usuario
+2026-06-08 21:42:31,160 [INFO] POST crear usuario: Jesus David, QA Automation
+2026-06-08 21:42:34,136 [INFO] Test DELETE: eliminar usuario
+2026-06-08 21:42:34,157 [INFO] DELETE usuario id: 2
+2026-06-08 21:42:36,969 [INFO] Test PUT: actualizar usuario
+2026-06-08 21:42:36,970 [INFO] PUT actualizar usuario id: 2
+2026-06-08 21:43:29,462 [INFO] Cargando datos desde CSV: data/checkout.csv
+2026-06-08 21:43:29,562 [INFO] Cargando usuarios desde JSON: data/users.json
+2026-06-08 21:43:29,787 [INFO] Iniciando ChromeDriver
+2026-06-08 21:43:29,796 [INFO] ====== WebDriver manager ======
+2026-06-08 21:43:32,133 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:43:32,972 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:43:33,838 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:43:35,887 [INFO] WebDriver version 148.0.7778.178 selected
+2026-06-08 21:43:35,907 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win32/chromedriver-win32.zip
+2026-06-08 21:43:35,909 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win32/chromedriver-win32.zip
+2026-06-08 21:43:36,900 [INFO] Driver downloading response is 200
+2026-06-08 21:43:37,400 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:43:38,522 [INFO] Driver has been saved in cache [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+2026-06-08 21:43:45,849 [INFO] Iniciando ChromeDriver
+2026-06-08 21:43:45,851 [INFO] ====== WebDriver manager ======
+2026-06-08 21:43:47,880 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:43:48,888 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:43:50,000 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:43:55,830 [INFO] Iniciando ChromeDriver
+2026-06-08 21:43:55,832 [INFO] ====== WebDriver manager ======
+2026-06-08 21:43:58,238 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:43:59,189 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:44:00,341 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:44:06,365 [INFO] Iniciando ChromeDriver
+2026-06-08 21:44:06,367 [INFO] ====== WebDriver manager ======
+2026-06-08 21:44:08,560 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:44:09,371 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:44:10,463 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:44:16,581 [INFO] Iniciando ChromeDriver
+2026-06-08 21:44:16,583 [INFO] ====== WebDriver manager ======
+2026-06-08 21:44:19,079 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:44:20,009 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:44:21,154 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:44:27,057 [INFO] Iniciando ChromeDriver
+2026-06-08 21:44:27,059 [INFO] ====== WebDriver manager ======
+2026-06-08 21:44:29,061 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:44:29,813 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:44:30,665 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:44:36,590 [INFO] Test GET: obtener lista de usuarios
+2026-06-08 21:44:36,591 [INFO] GET usuarios - página 1
+2026-06-08 21:44:45,313 [INFO] Test POST: crear usuario
+2026-06-08 21:44:45,317 [INFO] POST crear usuario: Jesus David, QA Automation
+2026-06-08 21:44:53,984 [INFO] Test DELETE: eliminar usuario
+2026-06-08 21:44:53,993 [INFO] DELETE usuario id: 2
+2026-06-08 21:44:56,760 [INFO] Test PUT: actualizar usuario
+2026-06-08 21:44:56,766 [INFO] PUT actualizar usuario id: 2
+2026-06-08 21:45:19,321 [INFO] Iniciando ChromeDriver
+2026-06-08 21:45:19,325 [INFO] ====== WebDriver manager ======
+2026-06-08 21:45:21,599 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:45:22,520 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:45:23,598 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:45:24,824 [INFO] Iniciando test checkout: John Doe
+2026-06-08 21:45:26,674 [INFO] Agregando primer producto al carrito
+2026-06-08 21:45:26,886 [INFO] Navegando al carrito
+2026-06-08 21:45:27,034 [INFO] Iniciando checkout
+2026-06-08 21:45:27,223 [INFO] Completando formulario: John Doe 10001
+2026-06-08 21:45:27,515 [INFO] Finalizando compra
+2026-06-08 21:45:30,175 [INFO] Iniciando ChromeDriver
+2026-06-08 21:45:30,178 [INFO] ====== WebDriver manager ======
+2026-06-08 21:45:32,322 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:45:33,137 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:45:33,947 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:45:35,191 [INFO] Iniciando test checkout: Jane Smith
+2026-06-08 21:45:36,819 [INFO] Agregando primer producto al carrito
+2026-06-08 21:45:37,013 [INFO] Navegando al carrito
+2026-06-08 21:45:37,166 [INFO] Iniciando checkout
+2026-06-08 21:45:37,231 [INFO] Completando formulario: Jane Smith 90210
+2026-06-08 21:45:37,383 [INFO] Finalizando compra
+2026-06-08 21:45:40,550 [INFO] Iniciando ChromeDriver
+2026-06-08 21:45:40,551 [INFO] ====== WebDriver manager ======
+2026-06-08 21:45:42,566 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:45:43,356 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:45:44,061 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:45:45,353 [INFO] Iniciando test checkout: Carlos Lopez
+2026-06-08 21:45:46,855 [INFO] Agregando primer producto al carrito
+2026-06-08 21:45:47,037 [INFO] Navegando al carrito
+2026-06-08 21:45:47,182 [INFO] Iniciando checkout
+2026-06-08 21:45:47,240 [INFO] Completando formulario: Carlos Lopez 1425
+2026-06-08 21:45:47,371 [INFO] Finalizando compra
+2026-06-08 21:45:50,037 [INFO] Iniciando ChromeDriver
+2026-06-08 21:45:50,039 [INFO] ====== WebDriver manager ======
+2026-06-08 21:45:52,321 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:45:53,294 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:45:54,234 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:45:55,613 [INFO] Checkout con Faker: Stacey Williams 40241
+2026-06-08 21:45:57,194 [INFO] Agregando primer producto al carrito
+2026-06-08 21:45:57,392 [INFO] Navegando al carrito
+2026-06-08 21:45:57,538 [INFO] Iniciando checkout
+2026-06-08 21:45:57,597 [INFO] Completando formulario: Stacey Williams 40241
+2026-06-08 21:45:57,731 [INFO] Finalizando compra
+2026-06-08 21:46:00,279 [INFO] Iniciando ChromeDriver
+2026-06-08 21:46:00,280 [INFO] ====== WebDriver manager ======
+2026-06-08 21:46:02,299 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:03,147 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:04,089 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:46:09,569 [INFO] Iniciando ChromeDriver
+2026-06-08 21:46:09,572 [INFO] ====== WebDriver manager ======
+2026-06-08 21:46:11,878 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:12,865 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:13,866 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:46:19,259 [INFO] Iniciando ChromeDriver
+2026-06-08 21:46:19,260 [INFO] ====== WebDriver manager ======
+2026-06-08 21:46:21,136 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:22,161 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:22,935 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:46:28,148 [INFO] Iniciando ChromeDriver
+2026-06-08 21:46:28,150 [INFO] ====== WebDriver manager ======
+2026-06-08 21:46:30,649 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:31,597 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:32,710 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:46:38,157 [INFO] Iniciando ChromeDriver
+2026-06-08 21:46:38,157 [INFO] ====== WebDriver manager ======
+2026-06-08 21:46:40,148 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:40,898 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:41,957 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:46:47,228 [INFO] Iniciando ChromeDriver
+2026-06-08 21:46:47,231 [INFO] ====== WebDriver manager ======
+2026-06-08 21:46:49,589 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:50,442 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:46:51,524 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:46:57,148 [INFO] Iniciando ChromeDriver
+2026-06-08 21:46:57,152 [INFO] ====== WebDriver manager ======
+2026-06-08 21:46:59,726 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:00,594 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:02,010 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:47:07,344 [INFO] Iniciando ChromeDriver
+2026-06-08 21:47:07,346 [INFO] ====== WebDriver manager ======
+2026-06-08 21:47:09,430 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:10,184 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:10,962 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:47:16,469 [INFO] Iniciando ChromeDriver
+2026-06-08 21:47:16,470 [INFO] ====== WebDriver manager ======
+2026-06-08 21:47:18,360 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:19,488 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:20,327 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:47:31,084 [INFO] Iniciando ChromeDriver
+2026-06-08 21:47:31,086 [INFO] ====== WebDriver manager ======
+2026-06-08 21:47:32,968 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:33,769 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:34,573 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:47:40,266 [INFO] Iniciando ChromeDriver
+2026-06-08 21:47:40,267 [INFO] ====== WebDriver manager ======
+2026-06-08 21:47:42,206 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:43,103 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:44,059 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:47:49,782 [INFO] Iniciando ChromeDriver
+2026-06-08 21:47:49,783 [INFO] ====== WebDriver manager ======
+2026-06-08 21:47:51,603 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:52,370 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:47:53,269 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:47:58,620 [INFO] Iniciando ChromeDriver
+2026-06-08 21:47:58,622 [INFO] ====== WebDriver manager ======
+2026-06-08 21:48:00,958 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:02,125 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:03,153 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:48:08,921 [INFO] Iniciando ChromeDriver
+2026-06-08 21:48:08,924 [INFO] ====== WebDriver manager ======
+2026-06-08 21:48:11,373 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:12,289 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:13,382 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:48:18,599 [INFO] Iniciando ChromeDriver
+2026-06-08 21:48:18,601 [INFO] ====== WebDriver manager ======
+2026-06-08 21:48:20,956 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:21,994 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:22,964 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:48:28,196 [INFO] Iniciando ChromeDriver
+2026-06-08 21:48:28,199 [INFO] ====== WebDriver manager ======
+2026-06-08 21:48:30,461 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:31,178 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:31,983 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:48:37,548 [INFO] Iniciando ChromeDriver
+2026-06-08 21:48:37,549 [INFO] ====== WebDriver manager ======
+2026-06-08 21:48:39,480 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:40,658 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:41,483 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:48:47,167 [INFO] Iniciando ChromeDriver
+2026-06-08 21:48:47,171 [INFO] ====== WebDriver manager ======
+2026-06-08 21:48:49,132 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:49,859 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:50,678 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:48:56,324 [INFO] Iniciando ChromeDriver
+2026-06-08 21:48:56,325 [INFO] ====== WebDriver manager ======
+2026-06-08 21:48:58,227 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:59,028 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:48:59,930 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:49:05,910 [INFO] Iniciando ChromeDriver
+2026-06-08 21:49:05,912 [INFO] ====== WebDriver manager ======
+2026-06-08 21:49:08,060 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:08,911 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:10,071 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:49:15,620 [INFO] Iniciando ChromeDriver
+2026-06-08 21:49:15,622 [INFO] ====== WebDriver manager ======
+2026-06-08 21:49:17,943 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:18,876 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:19,850 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:49:25,270 [INFO] Iniciando ChromeDriver
+2026-06-08 21:49:25,271 [INFO] ====== WebDriver manager ======
+2026-06-08 21:49:27,142 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:27,902 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:28,687 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:49:34,527 [INFO] Iniciando ChromeDriver
+2026-06-08 21:49:34,528 [INFO] ====== WebDriver manager ======
+2026-06-08 21:49:36,455 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:37,295 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:38,103 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:49:43,542 [INFO] Iniciando ChromeDriver
+2026-06-08 21:49:43,544 [INFO] ====== WebDriver manager ======
+2026-06-08 21:49:46,069 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:46,908 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:48,023 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache
+2026-06-08 21:49:53,729 [INFO] Iniciando ChromeDriver
+2026-06-08 21:49:53,731 [INFO] ====== WebDriver manager ======
+2026-06-08 21:49:56,150 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:57,150 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-08 21:49:58,267 [INFO] Driver [C:\Users\Jesus David\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win32/chromedriver.exe] found in cache

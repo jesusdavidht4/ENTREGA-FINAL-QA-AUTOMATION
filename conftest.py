@@ -28,3 +28,6 @@ def api_user_data():
         "name": "Jesus David",
         "job": "QA Automation"
     }
+
+#def reporte_html_report_titule( reporte ):
+#   reporte.titule = "API - REQUERES PYTEST WITH REQUEST"

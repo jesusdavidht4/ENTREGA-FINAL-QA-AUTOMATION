@@ -1,6 +1,7 @@
 import pytest
 import logging
-from utils.api_client import get_users, create_user, delete_user
+import os
+from utils.api_client import get_users, create_user, delete_user, update_user
 
 logger = logging.getLogger(__name__)
 
@@ -34,3 +35,12 @@ def test_delete_user():
 
     assert response.status_code == 204
     assert response.text == ""
+
+def test_update_user():
+    logger.info("Test PUT: actualizar usuario")
+    response = update_user("Jesus", "QA Automation", 2)
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["name"] == "Jesus"
+    assert body["job"] == "QA Automation"

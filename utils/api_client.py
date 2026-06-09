@@ -4,7 +4,6 @@ import logging
 logger = logging.getLogger(__name__)
 
 BASE_URL = "https://reqres.in/api"
-PROJECT_ID = "25447"
 HEADERS = {
     "x-api-key": "pro_e810da006a341cf0dd53779a9c27b6193156b3c423a0e5733ca3f845438d7efd",
     "X-Reqres-Env": "prod"
@@ -21,3 +20,7 @@ def create_user(name, job):
 def delete_user(user_id):
     logger.info(f"DELETE usuario id: {user_id}")
     return requests.delete(f"{BASE_URL}/users/{user_id}", headers=HEADERS)
+
+def update_user(name, job, user_id):
+    logger.info(f"PUT actualizar usuario id: {user_id}")
+    return requests.put(f"{BASE_URL}/users/{user_id}", json={"name": name, "job": job}, headers=HEADERS)
